@@ -5,6 +5,7 @@ import diceroll as dr
 def pass_method():
 
     global numberRolls
+    global result
     numberRolls=[]
     roll=dr.diceroll()
     #firstroll
@@ -33,5 +34,4 @@ def pass_method():
             result="nothing"
             numberRolls.append(rollTwo)
 
-    return result
 
