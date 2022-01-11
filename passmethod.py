@@ -27,7 +27,7 @@ def pass_method():
         if rollTwo==7:
             result="dontpass"
             numberRolls.append(rollTwo)
-        elif rollTwo==sum:
+        elif rollTwo==roll:
             result="pass"
             numberRolls.append(rollTwo)
         else:
